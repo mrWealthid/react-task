@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "text": "Learning React",
+      "day": "The month of June",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "Building Several Projects",
+      "day": "June 2021",
+      "reminder": true,
+      "id": 3
+    }
+  ]
+}

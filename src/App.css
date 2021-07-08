@@ -1,38 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
 .App {
-  text-align: center;
+  border: 1px solid gainsboro;
+  padding: 20px;
+  margin: 25px;
+  border-radius: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+button {
+  padding: 10px;
+  width: 60px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.schedule {
+  background-color: gainsboro;
+  padding: 10px;
+  margin: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.schedule h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reminder {
+  border-left: 5px solid green;
+}
+.form-control {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 10px;
+  align-items: center;
+}
+
+form {
+  margin: 0px 10px 50px 0px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+input[type="text"] {
+  padding: 10px;
+  outline: none;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="checkbox"] {
+  margin-left: 50px;
 }
